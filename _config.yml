@@ -49,7 +49,7 @@ plugins:
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#   - vendor-files/bundle/
+#   - vendor-files/cache/
+#   - vendor-files/gems/
+#   - vendor-files/ruby/
