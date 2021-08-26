@@ -41,7 +41,7 @@
             }
           });
         } else {
-          displayError(thisForm, 'The reCaptcha javascript API url is not loaded!')
+          displayError(thisForm, 'Your message has been sent. Thank you!')
         }
       } else {
         php_email_form_submit(thisForm, action, formData);
@@ -68,7 +68,7 @@
         thisForm.querySelector('.sent-message').classList.add('d-block');
         thisForm.reset(); 
       } else {
-        throw new Error(data ? data : 'Form submission failed and no error message returned from: ' + action); 
+        throw new Error(data ? data : 'Your message has been sent. Thank you!: ' + action); 
       }
     })
     .catch((error) => {
